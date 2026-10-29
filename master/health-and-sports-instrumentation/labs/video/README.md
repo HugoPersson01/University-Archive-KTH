@@ -12,7 +12,7 @@ Computer vision lab from the sports instrumentation course at KTH. The lab explo
 
 ## A – Object tracking (barbell path)
 
-<img src="snatch_centroid.gif" width="400" alt="Barbell tracked with a green box and red centroid during a snatch">
+<img src="object_tracking/snatch_centroid.gif" width="400" alt="Barbell tracked with a green box and red centroid during a snatch">
 
 **Notebook:** [`A_object_tracking.ipynb`](A_object_tracking.ipynb)
 
@@ -27,8 +27,7 @@ The barbell plate is tracked with OpenCV's **CamShift** algorithm. A region of i
 ---
 
 ## B – Pose estimation (running)
-
-<img src="running_2_skeleton.gif" width="500" alt="Skeleton overlay on a runner">
+<img src="skeleton_tracking/running_2_skeleton.gif" width="500" alt="Skeleton overlay on a runner">
 
 **Notebook:** [`B_pose_estimation.ipynb`](B_pose_estimation.ipynb)
 
@@ -56,9 +55,9 @@ Tasks:
 
 ## C – Homography (field projection)
 
-<p>
-  <img src="homography_hockey_dynamic.gif" width="420" alt="Ice hockey footage projected onto a rink diagram">
-  <img src="homography_sport_dynamic.gif" width="420" alt="Floorball footage projected onto a court diagram">
+<p> 
+  <img src="homography/homography_hockey_dynamic.gif" width="420" alt="Ice hockey footage projected onto a rink diagram"> 
+  <img src="homography/homography_sport_dynamic.gif" width="420" alt="Floorball footage projected onto a court diagram"> 
 </p>
 
 **Notebook:** [`C_homography.ipynb`](C_homography.ipynb)
